@@ -21,7 +21,8 @@ export default async function RollupCode(codePath: string, config: RollupOptions
         console.info(`Installing packages in ${tmpDir.name}`);
 
         await execa(`npm install ${installedPackages.join(" ")}`, {
-            cwd: tmpDir.name
+            cwd: tmpDir.name,
+            shell: true
         });
     }
 
