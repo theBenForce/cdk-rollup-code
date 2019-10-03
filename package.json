@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@aws-cdk/aws-lambda": "^1.11.0",
+    "execa": "^2.0.4",
     "rollup": "^1.22.0"
   },
   "scripts": {
