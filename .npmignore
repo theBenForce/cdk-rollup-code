@@ -4,3 +4,4 @@ tsconfig.json
 .releaserc.yml
 .travis.yml
 .npmrc
+*.log
