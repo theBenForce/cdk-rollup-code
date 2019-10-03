@@ -1,6 +1,8 @@
-# Repo
+# cdk-rollup-code
 
-[![Travis](https://img.shields.io/travis/user/repo.svg?branch=master&style=flat-square)](https://travis-ci.org/user/repo) [![Version](https://img.shields.io/npm/v/cdk-rollup-code.svg?style=flat-square)](https://npmjs.org/package/cdk-rollup-code) [![Downloads](https://img.shields.io/npm/dt/cdk-rollup-code.svg?style=flat-square)](https://npmjs.org/package/cdk-rollup-code) 
+[![Build Status](https://travis-ci.com/theBenForce/cdk-rollup-code.svg?branch=master)](https://travis-ci.com/theBenForce/cdk-rollup-code)
+[![Version](https://img.shields.io/npm/v/cdk-rollup-code.svg?style=flat-square)](https://npmjs.org/package/cdk-rollup-code)
+[![Downloads](https://img.shields.io/npm/dt/cdk-rollup-code.svg?style=flat-square)](https://npmjs.org/package/cdk-rollup-code) 
 
 ## Installation
 
