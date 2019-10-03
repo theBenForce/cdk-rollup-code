@@ -18,11 +18,7 @@ export default async function RollupCode(codePath: string, config: RollupOptions
     await bundle.write({ ...config.output, file: joinPath(tmpDir.name, 'index.js') });
 
     if (installedPackages.length > 0) {
-        console.info(`Installing packages`);
-
-        await execa(`npm init -y`, {
-            cwd: tmpDir.name
-        });
+        console.info(`Installing packages in ${tmpDir.name}`);
 
         await execa(`npm install ${installedPackages.join(" ")}`, {
             cwd: tmpDir.name
