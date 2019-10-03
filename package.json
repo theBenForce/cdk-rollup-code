@@ -12,6 +12,7 @@
     "@semantic-release/release-notes-generator": "^7.3.0",
     "@types/node": "^12.7.9",
     "@types/tmp": "^0.1.0",
+    "semantic-release": "^15.13.24",
     "typescript": "^3.6.3"
   },
   "dependencies": {
