@@ -13,7 +13,9 @@
     "@types/node": "^13.7.2",
     "@types/tmp": "^0.1.0",
     "semantic-release": "^17.0.4",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "@aws-cdk/aws-lambda": "^1",
+    "rollup": "^1"
   },
   "peerDependencies": {
     "@aws-cdk/aws-lambda": "^1",
