@@ -5,20 +5,22 @@
   "module": "dist/index.d.ts",
   "license": "MIT",
   "devDependencies": {
-    "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/commit-analyzer": "^6.3.0",
-    "@semantic-release/github": "^5.5.0",
-    "@semantic-release/npm": "^5.2.0",
-    "@semantic-release/release-notes-generator": "^7.3.0",
-    "@types/node": "^12.7.9",
+    "@semantic-release/changelog": "^5.0.0",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/github": "^7.0.3",
+    "@semantic-release/npm": "^7.0.3",
+    "@semantic-release/release-notes-generator": "^9.0.0",
+    "@types/node": "^13.7.2",
     "@types/tmp": "^0.1.0",
-    "semantic-release": "^15.13.24",
-    "typescript": "^3.6.3"
+    "semantic-release": "^17.0.4",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "@aws-cdk/aws-lambda": "^1",
+    "rollup": "^1"
   },
   "dependencies": {
-    "@aws-cdk/aws-lambda": "^1.11.0",
-    "execa": "^2.0.4",
-    "rollup": "^1.22.0"
+    "execa": "^4.0.0"
   },
   "scripts": {
     "build": "tsc",
